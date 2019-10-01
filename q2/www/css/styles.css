@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+main {
+  margin: 32px;
+}
+
+
+
+.backgroundleft {
+    /* Sizing */
+    width: 50vw;
+    height: 100vh;
+    float: left;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-color: #00003b;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backgroundright {
+    /* Sizing */
+    width: 50vw;
+    height: 100vh;
+    float: left;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-color: #cc003b;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:hover {
+  color: white;
+  opacity: 0.7;
+  text-shadow: none;
+  border: none;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.button1 {
+    /* Positioning and sizing */
+    display: block;
+    width: 400px;
+    opacity: 1.0;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.08em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Border styles */
+    border-radius: 2px;
+
+    /* Background styles */
+    background-color: #33003b;
+}
+
+.button2 {
+    /* Positioning and sizing */
+    display: block;
+    width: 400px;
+    opacity: 1.0;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.08em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Border styles */
+    border-radius: 2px;
+
+    /* Background styles */
+    background-color: #99003b;
+}
+
+.dropdown-menu {
+  opacity: 0.7;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+}
