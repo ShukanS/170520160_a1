@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
 body {
     margin: 0;
-    font-family: Verdana, sans-serif;
+    font-family: Ubuntu, sans-serif !important;
 }
 
 main {
@@ -46,6 +50,7 @@ main {
     /* Text styles */
     text-align: center;
     color: white;
+    font-family: Ubuntu, sans-serif;
 
     /* Background styles */
     background-color: #cc003b;
@@ -55,20 +60,10 @@ main {
     background-attachment: fixed;
 }
 
-a:hover {
-  color: white;
-  opacity: 0.7;
-  text-shadow: none;
-  border: none;
-}
-
-.hero h1 {
-    /* Text styles */
-    font-size: 5em;
-
-    /* Margins */
-    margin-top: 0;
-    margin-bottom: 0.5em;
+.backgroundtext {
+  text-align: center;
+  position: absolute;
+  top: 200px;
 }
 
 .button1 {
@@ -88,7 +83,7 @@ a:hover {
     text-decoration: none;
     font-size: 1.5em;
     letter-spacing: 0.08em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Ubuntu, sans-serif;
 
     /* Border styles */
     border-radius: 2px;
@@ -114,7 +109,7 @@ a:hover {
     text-decoration: none;
     font-size: 1.5em;
     letter-spacing: 0.08em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Ubuntu, sans-serif;
 
     /* Border styles */
     border-radius: 2px;
@@ -127,6 +122,73 @@ a:hover {
   opacity: 0.7;
 }
 
-.sticky-top {
-  position: -webkit-sticky;
+.dropdown-toggle {
+  outline: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button1:hover {
+  opacity: 0.7;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button2:hover {
+  opacity: 0.7;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.titlepage {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 350px;
+  background-color: #66003b;
+  height: 100%;
+}
+
+.titlepage h1 {
+  opacity: 0.8;
+  text-align: center;
+  font-size: 75px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.titlepage h2 {
+  opacity: 0.7;
+}
+
+.homepage {
+  background-color: #66003b;
+}
+
+.wdubutton {
+  font-weight: bolder;
+  font-size: 75px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.wdubutton:hover {
+  color: #ffffff;
+  text-shadow: 8px 8px #000000;
+  text-decoration:none;
+}
+
+.programspage {
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    -moz-transition: opacity .8s ease-in-out;
+    -webkit-transition: opacity .8s ease-in-out;
+}
+
+.programspage.all-loaded {
+    opacity: 1;
 }
