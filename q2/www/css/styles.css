@@ -89,8 +89,9 @@ main {
 
 .backgroundcompsci {
     /* Sizing */
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
+    float: left;
 
     /* Flexbox stuff */
     display: flex;
@@ -113,8 +114,9 @@ main {
 
 .backgroundmath {
     /* Sizing */
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
+    float: left;
 
     /* Flexbox stuff */
     display: flex;
@@ -364,8 +366,9 @@ a:hover {
 
 .professorbio {
     /* Sizing */
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
+    float: left;
 
     /* Flexbox stuff */
     display: flex;
